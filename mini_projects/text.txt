@@ -1,0 +1,4 @@
+The quick brown fox jumps over the lazy dog.
+Practice makes progress, not perfection.
+Python is a great first programming language.
+Typing fast is good but typing accurately is better.
