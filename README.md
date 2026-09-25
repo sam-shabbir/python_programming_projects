@@ -31,6 +31,9 @@ Small command-line and GUI programs.
 | 14 Shortest Path Finder | Animated breadth-first search through a maze | `windows-curses` on Windows |
 | 19 MasterMind | Guess the 4-colour code in 10 tries | none |
 | Password Manager | Saves passwords encrypted with a key file | `cryptography` |
+| 16 Currency Converter | Live exchange rates and conversions from the free Frankfurter API (ECB data, no key needed) | `requests` |
+| HW Quiz Game (loop version) | Quiz Game rewritten to store questions in a list and ask them in one loop | none |
+| Image Filter | Command-line tool: `python Image_Filter.py photo.jpg blur` (also sharpen, contour, edges, emboss, grayscale, invert, mirror) | `pillow` |
 | CS50 OpenAI First Call | Sends one prompt to the OpenAI API | `openai`, plus an `OPENAI_API_KEY` environment variable |
 
 Lines marked `# FIX:` show where I later corrected a bug, with a short note on what was wrong.
@@ -50,7 +53,7 @@ Notebooks from Luke Barousse's *Python for Data Analytics* course:
 ## Running
 
 ```bash
-pip install pandas matplotlib seaborn datasets pygame pytube schedule windows-curses cryptography openai
+pip install pandas matplotlib seaborn datasets pygame pytube schedule windows-curses cryptography openai requests pillow
 python mini_projects/13_Password_Generator.py
 ```
 
