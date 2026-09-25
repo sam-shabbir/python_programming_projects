@@ -42,14 +42,16 @@ Lines marked `# FIX:` show where I later corrected a bug, with a short note on w
 ### `practice_problems/`
 Short exercises on lists, strings, loops, dictionaries, sets, file I/O, and an introduction to classes. Each file states the problem at the top.
 
-### `data_analytics_luke_barousse/`
-Notebooks from Luke Barousse's *Python for Data Analytics* course:
+### `data_analytics_course_notebooks/`
+Notebooks from a Python for Data Analytics course:
 
 - **01_python_basics**: variables, data types, control flow, functions, classes, NumPy, and intro pandas/matplotlib
 - **02_advanced_pandas_and_visualisation**: cleaning, pivot tables, merging, `apply`, `explode`, matplotlib charts, and seaborn
-- **03_capstone_job_market_eda**: exploratory analysis of data-job postings covering skill demand, skill trends, salaries, and the best skills to learn
+- **03_capstone_job_market_eda**: the capstone project, now with its own repo and a write-up: **[Data_Analytics_Job_Market_EDA](https://github.com/sam-shabbir/Data_Analytics_Job_Market_EDA)**
 
 > Cells marked **🪲 Debugging** fail on purpose. The course uses them to show common errors.
+>
+> Course material: Luke Barousse's Python for Data Analytics.
 
 ## Running
 
