@@ -2,3 +2,6 @@ __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .venv/
+key.key
+passwords.txt
+alarm.mp3

@@ -22,6 +22,18 @@ Small command-line and GUI programs.
 | 18 Auto Folder Backup | Copies a folder into a dated backup every day | `schedule` (edit the paths first) |
 | 20 Advanced Aim Trainer | Pygame target-clicking game | `pygame` |
 | 21 Advanced Get Game Data | Finds, copies, and compiles game folders, then writes metadata | Go toolchain |
+| Quiz Game 2 | Computer-acronyms quiz with a percentage score | none |
+| 06 PIG Dice Game | 2–4 player dice game where rolling a 1 loses your turn's points; first to 50 wins | none |
+| 07 Madlibs Generator | Fills the `<blanks>` in `story.txt` with your words | none |
+| 09 Turtle Racing | Races 2–10 randomly moving turtles | none (uses built-in `turtle`) |
+| Slot Machine | Deposit, bet on 1–3 lines, and spin | none |
+| 12A Alarm Clock With Sound | Countdown that plays `alarm.mp3`, or beeps if the file is missing | `playsound==1.2.2` (optional) |
+| 14 Shortest Path Finder | Animated breadth-first search through a maze | `windows-curses` on Windows |
+| 19 MasterMind | Guess the 4-colour code in 10 tries | none |
+| Password Manager | Saves passwords encrypted with a key file | `cryptography` |
+| CS50 OpenAI First Call | Sends one prompt to the OpenAI API | `openai`, plus an `OPENAI_API_KEY` environment variable |
+
+Lines marked `# FIX:` show where I later corrected a bug, with a short note on what was wrong.
 
 ### `practice_problems/`
 Short exercises on lists, strings, loops, dictionaries, sets, file I/O, and an introduction to classes. Each file states the problem at the top.
@@ -38,7 +50,7 @@ Notebooks from Luke Barousse's *Python for Data Analytics* course:
 ## Running
 
 ```bash
-pip install pandas matplotlib seaborn datasets pygame pytube schedule windows-curses
+pip install pandas matplotlib seaborn datasets pygame pytube schedule windows-curses cryptography openai
 python mini_projects/13_Password_Generator.py
 ```
 
